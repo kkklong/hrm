@@ -39,7 +39,7 @@ import com.qiujie.exception.ServiceException;
 @Service
 public class DeptService extends ServiceImpl<DeptMapper, Dept> {
 
-    @Autowired
+    @Resource
     private DeptMapper deptMapper;
 
     public ResponseDTO add(Dept dept) {

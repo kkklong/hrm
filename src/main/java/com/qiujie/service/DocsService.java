@@ -46,7 +46,7 @@ public class DocsService extends ServiceImpl<DocsMapper, Docs> {
     @Value("${file-path}") // 引入文件上传与下载的路径
     private String filePath;
 
-    @Autowired
+    @Resource
     private DocsMapper docsMapper;
 
     /**

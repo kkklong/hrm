@@ -46,18 +46,18 @@ import java.util.Map;
 public class SalaryService extends ServiceImpl<SalaryMapper, Salary> {
 
 
-    @Autowired
+    @Resource
     private SalaryMapper salaryMapper;
 
     @Autowired
     private SalaryDeductService salaryDeductService;
 
 
-    @Autowired
+    @Resource
     private AttendanceMapper attendanceMapper;
 
 
-    @Autowired
+    @Resource
     private StaffOvertimeMapper staffOvertimeMapper;
 
     public ResponseDTO add(Salary salary) {

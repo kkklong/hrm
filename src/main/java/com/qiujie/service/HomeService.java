@@ -34,16 +34,16 @@ import java.util.stream.Collectors;
 @Service
 public class HomeService {
 
-    @Autowired
+    @Resource
     private StaffService staffService;
 
-    @Autowired
+    @Resource
     private StaffMapper staffMapper;
 
     @Autowired
     private CityService cityService;
 
-    @Autowired
+    @Resource
     private AttendanceMapper attendanceMapper;
 
     @Autowired

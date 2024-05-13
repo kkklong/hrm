@@ -40,7 +40,7 @@ import java.util.stream.Collectors;
 @Service
 public class MenuService extends ServiceImpl<MenuMapper, Menu> {
 
-    @Autowired
+    @Resource
     private MenuMapper menuMapper;
 
 

@@ -37,7 +37,7 @@ import java.util.Map;
 @Service
 public class InsuranceService extends ServiceImpl<InsuranceMapper, Insurance> {
 
-    @Autowired
+    @Resource
     private InsuranceMapper insuranceMapper;
 
     public ResponseDTO add(Insurance insurance) {

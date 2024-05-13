@@ -49,13 +49,13 @@ import cn.hutool.core.date.DateUtil;
 @Service
 public class AttendanceService extends ServiceImpl<AttendanceMapper, Attendance> {
 
-    @Autowired
+    @Resource
     private AttendanceMapper attendanceMapper;
 
-    @Autowired
+    @Resource
     private DeptMapper deptMapper;
 
-    @Autowired
+    @Resource
     private StaffMapper staffMapper;
 
     @Autowired

@@ -23,6 +23,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.InputStream;
@@ -40,13 +41,13 @@ import java.util.stream.Collectors;
 @Service
 public class StaffLeaveService extends ServiceImpl<StaffLeaveMapper, StaffLeave> {
 
-    @Autowired
+    @Resource
     private StaffLeaveMapper staffLeaveMapper;
 
-    @Autowired
+    @Resource
     private StaffMapper staffMapper;
 
-    @Autowired
+    @Resource
     private RuntimeService runtimeService;
 
     @Autowired

@@ -52,7 +52,7 @@ public class StaffOvertimeService extends ServiceImpl<StaffOvertimeMapper, Staff
     @Autowired
     private StaffOvertimeMapper staffOvertimeMapper;
 
-    @Autowired
+    @Resource
     private StaffMapper staffMapper;
 
     @Autowired

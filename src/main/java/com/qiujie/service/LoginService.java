@@ -31,7 +31,7 @@ import java.time.LocalDateTime;
 @Service
 public class LoginService extends ServiceImpl<StaffMapper, Staff> {
 
-    @Autowired
+    @Resource
     private StaffMapper staffMapper;
 
     @Autowired

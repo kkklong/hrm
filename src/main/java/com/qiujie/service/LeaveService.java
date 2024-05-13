@@ -27,7 +27,7 @@ import java.util.List;
 @Service
 public class LeaveService extends ServiceImpl<LeaveMapper, Leave> {
 
-    @Autowired
+    @Resource
     private LeaveMapper leaveMapper;
 
     public ResponseDTO add(Leave leave) {

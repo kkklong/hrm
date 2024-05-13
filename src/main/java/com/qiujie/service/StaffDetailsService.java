@@ -23,10 +23,10 @@ import java.util.List;
 @Service
 public class StaffDetailsService implements UserDetailsService {
 
-    @Autowired
+    @Resource
     private StaffMapper staffMapper;
 
-    @Autowired
+    @Resource
     private MenuMapper menuMapper;
 
     @Override
